@@ -1,0 +1,10 @@
+name: Usersnap
+description: Creates a block that loads up the Usersnap module
+type: module
+core_version_requirement: ^9 || ^10
+package: Development
+dependencies:
+  - block
+configure: usersnap.settings
+configuration:
+  - usersnap.settings

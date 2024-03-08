@@ -1,0 +1,7 @@
+usersnap.settings:
+  type: config_object
+  label: 'Usersnap Configuration'
+  mapping:
+    api_key:
+      type: string
+      label: 'Usersnap API Key'

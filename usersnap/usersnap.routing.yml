@@ -1,0 +1,7 @@
+usersnap.settings:
+  path: '/admin/config/services/usersnap'
+  defaults:
+    _form: 'Drupal\usersnap\Form\Settings'
+    _title: 'Usersnap Settings'
+  requirements:
+    _permission: 'administer site configuration'

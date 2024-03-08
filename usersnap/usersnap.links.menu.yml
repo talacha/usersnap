@@ -1,0 +1,6 @@
+usersnap.admin:
+  title: 'Usersnap Settings'
+  description: 'Configure UserSnap widget settings'
+  parent: system.admin_config_services
+  route_name: usersnap.settings
+  weight: 100

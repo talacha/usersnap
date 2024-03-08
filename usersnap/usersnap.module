@@ -1,0 +1,12 @@
+<?php
+
+/*
+ * @file Usersnap functionality.
+ */
+
+/**
+ * Implements hook_preprocess_HOOK() for html.html.twig.
+ */
+function usersnap_preprocess_html(array &$variables) {
+  $variables['usersnap_api_key'] = \Drupal::config('usersnap.config')?->get('api_key');
+}
